@@ -1,0 +1,9 @@
+// Exercise #6: Displaying message
+
+let totalParts = 13000;
+
+let concatSentence = "Total:" + " " + totalParts + " " + "Machine Parts";
+let literalSentence = `Total: ${totalParts} Machine Parts`;
+
+console.log(literalSentence);
+console.log(concatSentence);
